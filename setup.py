@@ -7,7 +7,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), "README.md")) as f:
 
 setup(
     name="model_meter",
-    version="0.1.0",
+    version="0.1.1",
     author="Dayeon Oh",
     author_email="dayeon.dev@gmail.com",
     description="Model Meter",
@@ -24,4 +24,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
+    packages=find_packages(exclude=["tests"]),
 )
