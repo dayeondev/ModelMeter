@@ -7,7 +7,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), "README.md")) as f:
 
 setup(
     name="model_meter",
-    version="0.1.1",
+    version="0.2.0",
     author="Dayeon Oh",
     author_email="dayeon.dev@gmail.com",
     description="Model Meter",
