@@ -1,6 +1,6 @@
 # ModelMeter
 <p align="center">
-  <a href="https://pypi.org/project/model-meter"><img src="https://raw.githubusercontent.com/dayeondev/ModelMeter/main/contents/modelmeter-logo.jpg" alt="ModelMeter"></a>
+  <a href="https://pypi.org/project/model-meter"><img src="https://github.com/dayeondev/ModelMeter/assets/46081429/afff1336-57a6-45cb-8519-57cd59a03bb8" alt="ModelMeter"></a>
 </p>
 <p align="center">
     <em>Unrestricted class structure compatibility and focused throughput assessment for your model's performance evaluation</em>
