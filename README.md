@@ -33,7 +33,7 @@ model = YOLO()
 meter = ModelMeter(model)
 
 # Run the meter
-throughput, avg_time_per_call = meter.measure(params=('./contents/dog.jpg',))
+throughput, avg_time_per_call = meter.measure(params=('./contents/dog.jpg',), method_name="__call__")
 
 print(f'Throughput: {throughput} images/second')
 print(f'Avg time per call: {avg_time_per_call} seconds')
